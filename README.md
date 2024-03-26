@@ -17,7 +17,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objective</h2>
 
-- Configure osTicket by creating SLA's, roles, departments, teams, agents, users, and help topics.
+- Configure osTicket by creating SLAs, roles, departments, teams, agents, users, and help topics.
 
   <h2>Prerequisites</h2>
 
@@ -30,7 +30,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <img src=https://github.com/CSanders000/post-install-config/assets/161166823/badef148-b46b-4496-bba6-01f2a5fb3755"/>
 </p>
 <p>
-We will start by creating an administrative role. We can name it whatever we want, so in this case we will name it "Supreme Admin". To do this we will make sure we're on the Admin Panel, then go to Agents, Roles, and then create new role. Once we create the role we are going to give this role every permission under the permissions tab. We can then click "Save Changes". 
+We will start by creating an administrative role. We can name it whatever we want, so in this case, we will name it "Supreme Admin". To do this we will make sure we're on the Admin Panel, then go to Agents, Roles, and then create new role. Once we create the role we are going to give this role every permission under the permissions tab. We can then click "Save Changes". 
 </p>
 <br />
 
@@ -38,7 +38,7 @@ We will start by creating an administrative role. We can name it whatever we wan
 <img src=https://github.com/CSanders000/post-install-config/assets/161166823/5fe0e38f-283d-43e3-bc44-549d401cacc4"/>
 </p>
 <p>
-Next we will configure our Departments. To do this we will go to Agents, Departments, then add new department. We will name this department System Administrators and then save. 
+Next, we will configure our Departments. To do this we will go to Agents, Departments, then add new department. We will name this department System Administrators and then save. 
 </p>
 <br />
 
@@ -54,7 +54,7 @@ We will next create a team. We can go to Agents, Teams, and then we will name th
 <img src=https://github.com/CSanders000/post-install-config/assets/161166823/a680dc74-3e76-48b5-ad43-994e1b66d118"/>
 </p>
 <p>
-Next, we will create our agents. We'll click Agents, Agents, and add new agent. We will add two agents, Jane Doe and John Doe. When creating our agents we will make Jane a System Administrator and John will be in the Support department. When making these accounts; we can name them both, give them a fake email (ex. jane.doe@osticket.com), make their usernames something simple (ex. jane.doe), and then give them passwords. We'll uncheck the "Send the agent a password reset email" box to give them a password, then we will uncheck the "Request password change at next login" box. It is also important to assign them to a department and a role. Jane will be a System Administrator with the Supreme Admin role. We will also give her a secondary department in Support with a Supreme Admin Role. For John, we will just give him a Support role with expanded permissions (so he is able to close tickets).
+Next, we will create our agents. We'll click Agents, Agents, and add new agent. We will add two agents, Jane Doe and John Doe. When creating our agents we will make Jane a System Administrator and John will be in the Support department. When making these accounts; we can name them both, give them a fake email (ex. jane.doe@osticket.com), make their usernames something simple (ex. jane.doe), and then give them passwords. We'll uncheck the "Send the agent a password reset email" box to give them a password, then we will uncheck the "Request password change at next login" box. It is also important to assign them to a department and a role. Jane will be a System Administrator with the Supreme Admin role. We will also give her a secondary department in Support with a Supreme Admin Role. For John, we will just give him a Support role with expanded permissions (so he can close tickets).
 </p>
 <br />
 
@@ -62,7 +62,7 @@ Next, we will create our agents. We'll click Agents, Agents, and add new agent. 
 <img src=https://github.com/CSanders000/post-install-config/assets/161166823/1f670306-fe8b-40e8-b2c2-aa80b613f08b"/>
 </p>
 <p>
-Next, we wll create some users. For this we will switch to the agent panel in the top right, then go to Users and User Directory. We will add three users. Amanda Smitch, Ken James, and Ryan Johnson. To do this we will click "Add User", give them a name and email, and then save changes. 
+Next, we will create some users. For this, we will switch to the agent panel in the top right, then go to Users and User Directory. We will add three users. Amanda Smith, Ken James, and Ryan Johnson. To do this we will click "Add User", give them a name and email, and then save changes. 
 </p>
 <br />
 
@@ -78,7 +78,7 @@ We will create three SLA plans, each of a different severity. To do this we will
 <img src=https://github.com/CSanders000/post-install-config/assets/161166823/b012ce9a-9ea8-420c-be04-ec24fad0d448"/>
 </p>
 <p>
-Finally, we will add out Help Topics. To get here we will click "Manage" and then "Help Topics". We will be adding four help topics, named Business Critical Outage, Equipment Reset, Password Reset, and Personal Computer Issues. All we have to do here is click "Add New Help Topic", name it, and then click save changes. That concludes the configuration of osTicket. 
+Finally, we will add our Help Topics. To get here we will click "Manage" and then "Help Topics". We will be adding four help topics, named Business Critical Outage, Equipment Reset, Password Reset, and Personal Computer Issues. All we have to do here is click "Add New Help Topic", name it, and then click Save Changes. That concludes the configuration of osTicket. 
 </p>
 <br />
 
